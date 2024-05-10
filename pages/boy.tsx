@@ -58,7 +58,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Girl
+          Girl
         </Link>
         <Link
           href={"/women"}
@@ -68,7 +68,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Women
+          Women
         </Link>
         <Link
           href={"/boy"}
@@ -78,7 +78,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Boy
+          Boy
         </Link>
         <Link
           href={"/men"}
@@ -88,7 +88,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Men
+          Men
         </Link>
       </header>
       <main className="mx-auto mt-20 max-w-[1960px] p-4">

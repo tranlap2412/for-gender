@@ -58,7 +58,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Girl
+          Girl
         </Link>
         <Link
           href={"/women"}
@@ -68,7 +68,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Women
+          Women
         </Link>
         <Link
           href={"/boy"}
@@ -78,7 +78,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Boy
+          Boy
         </Link>
         <Link
           href={"/men"}
@@ -88,7 +88,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               : "bg-white text-black"
           } rounded-lg  px-4 py-2 font-semibold transition-all duration-300 hover:-translate-y-1`}
         >
-          For Men
+          Men
         </Link>
       </header>
       <main className="mx-auto mt-20 max-w-[1960px] p-4">
@@ -115,7 +115,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
                 style={{ transform: "translate3d(0, 0, 0)" }}
                 placeholder="blur"
-                loading="lazy"
+                // loading="lazy"
                 blurDataURL={blurDataUrl}
                 src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
                 width={720}
