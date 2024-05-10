@@ -104,7 +104,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
               key={id}
-              href={`/?photoId=${id}`}
+              href={`women/?photoId=${id}`}
               as={`/p/${id}`}
               ref={id === Number(lastViewedPhoto) ? lastViewedPhotoRef : null}
               shallow
